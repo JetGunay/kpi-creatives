@@ -7,7 +7,7 @@ const http = axios.create({
     "Access-Control-Allow-Headers": "Origin, Authorization",
     // "Access-Control-Allow-Credentials": false,
     Authorization:
-      "Bearer eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjM4NDYzOTMsXCJpXCI6ODQxNDU3NixcImNcIjo0NjM1ODE0LFwidVwiOjk1OTM4MTIsXCJyXCI6XCJVU1wiLFwic1wiOltcIldcIixcIkZcIixcIklcIixcIlVcIixcIktcIixcIkNcIixcIkRcIixcIk1cIixcIkFcIixcIkxcIixcIlBcIl0sXCJ6XCI6W10sXCJ0XCI6MH0iLCJpYXQiOjE2NjYyNTUzMDh9.8OCwkj8xXpvsAsky9zoKn-vjKDmtYBT3rQ3UTIEX6yw",
+      "Bearer "+token,
   },
 });
 
