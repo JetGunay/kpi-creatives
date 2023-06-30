@@ -3,7 +3,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/auth";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCHPhABclPLezJMQ3RoOAcmBGOPJAHXrCg",
+  apiKey: //apiKey,
   authDomain: "kpi-creatives.firebaseapp.com",
   projectId: "kpi-creatives",
   storageBucket: "kpi-creatives.appspot.com",
