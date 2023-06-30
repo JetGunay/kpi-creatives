@@ -1,0 +1,133 @@
+{
+  "role": [
+    { "id": 0, "title": "Admin"},
+    { "id": 1, "title": "Studio Manager"},
+    { "id": 2, "title": "Team Lead"},
+    { "id": 3, "title": "OIC"},
+    { "id": 4, "title": "Member"}
+  ],
+  "groups": [
+    { "id": "KX724IUQ", "title": "Developers" },
+    { "id": "KX724M7I", "title": "Design" },
+    { "id": "KX724M7F", "title": "Motion" }
+  ],
+  "location": [
+    { "id": 0, "title": "Manila" },
+    { "id": 1, "title": "London" }
+  ],
+  "brands": [
+    { "id": 0, "title": "betboo" },
+    { "id": 1, "title": "bwin Sports" },
+    { "id": 2, "title": "bwin Casino" },
+    { "id": 3, "title": "Coral Gaming"},
+    { "id": 4, "title": "Coral Sports"},
+    { "id": 5, "title": "Coral Retail"},
+    { "id": 6, "title": "Cheeky" },
+    { "id": 7, "title": "Foxy Bingo" },
+    { "id": 8, "title": "Foxy Games" },
+    { "id": 9, "title": "Gala Bingo" },
+    { "id": 10, "title": "Gala Casino" },
+    { "id": 11, "title": "Gala Spins" },
+    { "id": 12, "title": "Entain" },
+    { "id": 13, "title": "Ladbrokes Gaming" },
+    { "id": 14, "title": "Ladbrokes Sports" },
+    { "id": 15, "title": "Ladbrokes Retail" },
+    { "id": 16, "title": "PartyCasino" },
+    { "id": 17, "title": "PartyPoker" },
+    { "id": 18, "title": "PartySports" },
+    { "id": 19, "title": "PartyGaming" },
+    { "id": 20, "title": "PartyAll" },
+    { "id": 21, "title": "Sportingbet" },
+    { "id": 22, "title": "Vistabet" },
+    { "id": 23, "title": "Other" },
+    { "id": 24, "title": "Cross Brand - Gaming" },
+    { "id": 25, "title": "Cross Brand - Sports" },
+    { "id": 26, "title": "Wave" }
+  ],
+  "dashwf": [
+    { "id": "IEADVMHZJMBRONOE", "title": "New", "bgcolor": "blue", "color": "white"},
+    { "id": "IEADVMHZJMBRONOO", "title": "In Progress", "bgcolor": "yellowgreen", "color": "white"},
+    { "id": "IEADVMHZJMBRONOY", "title": "For Internal Approval", "bgcolor": "darkcyan", "color": "white"},
+    { "id": "IEADVMHZJMBRONPC", "title": "Approved Internally", "bgcolor": "green", "color": "white"},
+    { "id": "IEADVMHZJMBRONPM", "title": "Rejected internally", "bgcolor": "orange", "color": "white"},
+    { "id": "IEADVMHZJMBRONPW", "title": "Internal Amends", "bgcolor": "yellow", "color": "black"},
+    { "id": "IEADVMHZJMB4HMN6", "title": "URGENT", "bgcolor": "red", "color": "white"},
+    { "id": "IEADVMHZJMB4DC3E", "title": "Info required", "bgcolor": "purple", "color": "white"},
+    { "id": "IEADVMHZJMCPU5IG", "title": "Info Required - Task", "bgcolor": "darkblue", "color": "white"}
+  ],
+  "taskworkflow": [
+    { "id": "IEADVMHZJMBRONOE", "title": "New", "bgcolor": "blue", "color": "white"},
+    { "id": "IEADVMHZJMBRONOO", "title": "In Progress", "bgcolor": "yellowgreen", "color": "white"},
+    { "id": "IEADVMHZJMBSTJLA", "title": "Resourcing", "bgcolor": "red", "color": "white"},
+    { "id": "IEADVMHZJMB34BLG", "title": "For Resourcing", "bgcolor": "red", "color": "white"},
+    { "id": "IEADVMHZJMBRONOY", "title": "For Internal Approval", "bgcolor": "darkcyan", "color": "white"},
+    { "id": "IEADVMHZJMBRONPC", "title": "Approved Internally", "bgcolor": "green", "color": "white"},
+    { "id": "IEADVMHZJMBRONPM", "title": "Rejected internally", "bgcolor": "orange", "color": "white"},
+    { "id": "IEADVMHZJMBRONPW", "title": "Internal Amends", "bgcolor": "yellow", "color": "black"},
+    { "id": "IEADVMHZJMB4HMN6", "title": "URGENT", "bgcolor": "red", "color": "white"},
+    { "id": "IEADVMHZJMB4DC3E", "title": "Info required", "bgcolor": "purple", "color": "white"},
+    { "id": "IEADVMHZJMBRONOF", "title": "Completed", "bgcolor": "green", "color": "white"},
+    { "id": "IEADVMHZJMCPU5IG", "title": "Info Required - Task", "bgcolor": "darkblue", "color": "white"},
+    { "id": "IEADVMHZJMCPU5IR", "title": "Cancelled", "bgcolor": "gray", "color": "white"}
+  ],
+  "qadesmg": {
+    "parent": [
+      { "id": 0, "title": "Design", "total": 40, "default": 1, 
+        "children": [
+          { "id": 0, "title": "Copy and T&Cs", "per": 20, "parent": 0, "val": 0 },
+          { "id": 1, "title": "Design accuracy", "per": 20, "parent": 0, "val": 0 }
+        ]
+      },
+      { "id": 1, "title": "Deliverables", "total": 20, "default": 1, 
+        "children": [
+          { "id": 0, "title": "Complete sizes", "per": 6.666666666666667, "parent": 1, "val": 0 },
+          { "id": 1, "title": "Correct file sizes", "per": 6.666666666666667, "parent": 1, "val": 0 },
+          { "id": 2, "title": "Correct file naming: Ticket Number_Dimensions_brand (eg. 12345_800x800_Coral)", "per": 6.666666666666667, "parent": 1, "val": 0 }
+        ]
+      },
+      { "id": 2, "title": "Workflow Requirements", "total": 10, "default": 1, 
+        "children": [
+          { "id": 0, "title": "Updated Ticket Status", "per": 3.333333333333333, "parent": 2, "val": 0 },
+          { "id": 1, "title": "Logged Time", "per": 3.333333333333333, "parent": 2, "val": 0 },
+          { "id": 2, "title": "Tagging (relevant Line Managers and PM's", "per": 3.333333333333333, "parent": 2, "val": 0 }
+        ]
+      },
+      { "id": 3, "title": "GIF", "total": 30, "default": 0, 
+        "children": [
+          { "id": 0, "title": "Seamless loop", "per": 15, "parent": 3, "val": 0 },
+          { "id": 1, "title": "Render quality", "per": 15, "parent": 3, "val": 0 }
+        ]
+      },
+      { "id": 4, "title": "Social Videos", "total": 30, "default": 0, 
+        "children": [
+          { "id": 0, "title": "Animation aesthetics", "per": 15, "parent": 4, "val": 0 },
+          { "id": 1, "title": "Music and sound effects", "per": 15, "parent": 4, "val": 0 }
+        ]
+      },
+      { "id": 5, "title": "SVG / Others", "total": 100, "default": 0,
+        "children": [
+          { "id": 0, "title": "Design", "total": 50, "add": 0, "default": 1, 
+            "children": [
+              { "id": 0, "title": "Copy and T&Cs", "per": 25, "parent": 0, "val": 0, "grade": 0 },
+              { "id": 1, "title": "Design accuracy", "per": 25, "parent": 0, "val": 0, "grade": 0 }
+            ]
+          },
+          { "id": 1, "title": "Deliverables", "total": 30, "add": 0, "default": 1, 
+            "children": [
+              { "id": 0, "title": "Complete sizes", "per": 10, "parent": 1, "val": 0, "grade": 0 },
+              { "id": 1, "title": "Correct file sizes", "per": 10, "parent": 1, "val": 0, "grade": 0 },
+              { "id": 2, "title": "Correct file naming: Ticket Number_Dimensions_brand (eg. 12345_800x800_Coral)", "per": 10, "parent": 1, "val": 0, "grade": 0 }
+            ]
+          },
+          { "id": 2, "title": "Workflow Requirements", "total": 20, "add": 0, "default": 1, 
+            "children": [
+              { "id": 0, "title": "Updated Ticket Status", "per": "6.666666666666667", "parent": 2, "val": 0, "grade": 0 },
+              { "id": 1, "title": "Logged Time", "per": "6.666666666666667", "parent": 2, "val": 0, "grade": 0 },
+              { "id": 2, "title": "Tagging (relevant Line Managers and PM's", "per": "6.666666666666667", "parent": 2, "val": 0, "grade": 0 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
